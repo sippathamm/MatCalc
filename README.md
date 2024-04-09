@@ -1,4 +1,4 @@
-# MatCalc &ndash; A matrix transformation library for Python
+# MatCalc &ndash; A matrix transformation library
 
 ## Overview
 
