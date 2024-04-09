@@ -38,20 +38,20 @@ translation_4d_matrix = translation_4d(x=4.0, y=2.0, z=0)
 
 ### 3D transformation matrix
 
-- `x_rotation_3d(angle: float)`: Generates a 3D rotation matrix around the x-axis.
-- `y_rotation_3d(angle: float)`: Generates a 3D rotation matrix around the y-axis.
-- `z_rotation_3d(angle: float)`: Generates a 3D rotation matrix around the z-axis.
-- `rotation_3d(yaw: float, pitch: float, roll: float)`: Generates a combined 3D rotation matrix using yaw, pitch, and roll angles.
-- `axis_angle_3d(axis: list, angle: float)`: Generates a 3D rotation matrix based on the axis-angle representation.
+- `x_rotation_3d(angle: float)`: Generate a 3D rotation matrix around the x-axis.
+- `y_rotation_3d(angle: float)`: Generate a 3D rotation matrix around the y-axis.
+- `z_rotation_3d(angle: float)`: Generate a 3D rotation matrix around the z-axis.
+- `rotation_3d(yaw: float, pitch: float, roll: float)`: Generate a combined 3D rotation matrix using yaw, pitch, and roll angles.
+- `axis_angle_3d(axis: list, angle: float)`: Generate a 3D rotation matrix based on the axis-angle representation.
 
 ### 4D transformation matrix
 
-- `x_rotation_4d(angle: float)`: Generates a 4D rotation matrix around the x-axis.
-- `y_rotation_4d(angle: float)`: Generates a 4D rotation matrix around the y-axis.
-- `z_rotation_4d(angle: float)`: Generates a 4D rotation matrix around the z-axis.
-- `rotation_4d(yaw: float, pitch: float, roll: float)`: Generates a combined 4D rotation matrix using yaw, pitch, and roll angles.
-- `axis_angle_4d(axis: list, angle: float)`: Generates a 4D rotation matrix based on the axis-angle representation.
-- `translation_4d(x: float, y: float, z: float)`: Generates a 4D translation matrix.
+- `x_rotation_4d(angle: float)`: Generate a 4D rotation matrix around the x-axis.
+- `y_rotation_4d(angle: float)`: Generate a 4D rotation matrix around the y-axis.
+- `z_rotation_4d(angle: float)`: Generate a 4D rotation matrix around the z-axis.
+- `rotation_4d(yaw: float, pitch: float, roll: float)`: Generate a combined 4D rotation matrix using yaw, pitch, and roll angles.
+- `axis_angle_4d(axis: list, angle: float)`: Generate a 4D rotation matrix based on the axis-angle representation.
+- `translation_4d(x: float, y: float, z: float)`: Generate a 4D translation matrix.
 
 ## Dependency
 
