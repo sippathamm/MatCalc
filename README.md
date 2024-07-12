@@ -1,4 +1,4 @@
-# MatCalc &ndash; A matrix transformation library
+# MatCalc &ndash; A simple matrix transformation library
 
 ## Overview
 
@@ -16,7 +16,7 @@ git clone https://github.com/sippathamm/MatCalc.git
 Move `MatCalc.py` to your working directory. Then, you can import the library into your Python projects:
 
 ```python
-import MatCalc
+from MatCalc import *
 ```
 
 ## Usage
@@ -55,7 +55,8 @@ translation_4d_matrix = translation_4d(x=4.0, y=2.0, z=0)
 
 ## Dependency
 
-This library only uses `numpy==1.26.4`
+- `python==3.11.7`
+- `numpy==1.26.4`
 
 ## Author
 
